@@ -10,5 +10,5 @@ const getRandomResponse = getRandomElementFromArray(Responses);
 export const buildResponse = (
   branchName: string,
 ): string => `${chalk.green(getRandomPresponse())}
-${chalk.bgWhite.blue('Your branch name is:')}' '${branchName}
+${chalk.bgWhite.blue('Your branch name is:')} ${branchName}
 ${getRandomResponse()}${getRandomEmoji()}`;

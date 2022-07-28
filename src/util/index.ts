@@ -1,2 +1,2 @@
-export * from './generateBranchName';
+export * from './generateBranchNameAndResponse';
 export * from './getIssueTypes';

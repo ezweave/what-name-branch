@@ -2,7 +2,7 @@ import inquirer from 'inquirer';
 import { toLower } from 'lodash';
 
 import { IssueType } from './types';
-import { generateBranchName, getIssueTypes } from './util';
+import { generateBranchNameAndResponse, getIssueTypes } from './util';
 
 const questions = [{
   type: 'input',
@@ -34,7 +34,7 @@ export const processAnswers = ({
   name,
   type,
 }: Answer, log: Logger = console.warn) => {
-  const branchName = generateBranchName({
+  const branchName = generateBranchNameAndResponse({
     description,
     name,
     type: toLower(type),

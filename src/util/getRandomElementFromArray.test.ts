@@ -1,4 +1,4 @@
-import { getRandomElementFromArray } from "./getRandomElementFromArray";
+import { getRandomElementFromArray } from './getRandomElementFromArray';
 
 describe(getRandomElementFromArray, () => {
   it('gets a random element from an array', () => {
@@ -7,14 +7,14 @@ describe(getRandomElementFromArray, () => {
       'Marge',
       'Bart',
       'Lisa',
-      'Otto'
+      'Otto',
     ];
 
     const getRandomSimpsonsFirstName = getRandomElementFromArray(values);
 
     const one = getRandomSimpsonsFirstName();
     const two = getRandomSimpsonsFirstName();
-    expect(typeof one).toEqual('string')
-    expect(typeof two).toEqual('string')
-  })
-})
+    expect(typeof one).toEqual('string');
+    expect(typeof two).toEqual('string');
+  });
+});

@@ -1,4 +1,5 @@
 import inquirer from 'inquirer';
+import { toLower } from 'lodash';
 
 import { IssueType } from './types';
 import { generateBranchName, getIssueTypes } from './util';
@@ -14,12 +15,34 @@ const questions = [{
   choices: getIssueTypes(), 
 }, {
   type: 'input',
-  name: 'name',
+  name: 'description',
   message: 'What is the description?' 
 }];
 
+interface Answer {
+  description: string,
+  name: string,
+  type: keyof typeof IssueType,
+}
+
+interface Logger {
+  (message?: any, ...optionalParams: any[]): void
+}
+
+export const processAnswers = ({
+  description,
+  name,
+  type
+}: Answer, log: Logger = console.warn) => {
+  const branchName = generateBranchName({
+    description,
+    name,
+    type: toLower(type)
+  })
+  log(`Your branch name is: ${branchName}`)
+  return branchName;
+} 
+
 if (require.main === module) {
-  inquirer.prompt(questions).then((answers) => {
-    console.warn('ANSWERS', answers);
-  });
+  inquirer.prompt(questions).then(processAnswers);
 }

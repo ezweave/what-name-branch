@@ -7,7 +7,7 @@ import { generateBranchName, getIssueTypes } from './util';
 const questions = [{
   type: 'input',
   name: 'name',
-  message: 'What is the name of issue? (e.g. "PROJ-123")'
+  message: 'What is the name of issue? (e.g. "PROJ-123")',
 }, {
   type: 'list',
   name: 'type',
@@ -16,7 +16,7 @@ const questions = [{
 }, {
   type: 'input',
   name: 'description',
-  message: 'What is the description?' 
+  message: 'What is the description?', 
 }];
 
 interface Answer {
@@ -32,16 +32,16 @@ interface Logger {
 export const processAnswers = ({
   description,
   name,
-  type
+  type,
 }: Answer, log: Logger = console.warn) => {
   const branchName = generateBranchName({
     description,
     name,
-    type: toLower(type)
-  })
-  log(`Your branch name is: ${branchName}`)
+    type: toLower(type),
+  });
+  log(`Your branch name is: ${branchName}`);
   return branchName;
-} 
+}; 
 
 if (require.main === module) {
   inquirer.prompt(questions).then(processAnswers);

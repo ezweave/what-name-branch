@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getIssueTypes turns the IssueType enum into an array 1`] = `
+Array [
+  "BUG",
+  "SPIKE",
+  "STORY",
+]
+`;

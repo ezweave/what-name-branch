@@ -3,26 +3,29 @@
   "display": "Default",
   "compilerOptions": {
     "baseUrl": "./src",
+    "declaration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
-    "strict": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "skipLibCheck": true,
-    "types": ["node", "jest"],
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "dist",
     "paths": {
       "@ezweave/*": ["*"]
     },
+    "preserveConstEnums": true,
+    "removeComments": true,
     "resolveJsonModule": true,
-    "declaration": true,
-    "moduleResolution": "node",
-    "lib": ["ES2019"],
-    "module": "commonjs",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
     "target": "ES2019",
-    "declarationMap": true,
-    "noImplicitAny": false,
-    "outDir": "dist"
+    "types": ["node", "jest"]
   },
   "include": ["./src/**/*"],
-  "exclude": ["node_modules", "dist", ".eslintrc.js"]
+  "exclude": ["node_modules", "dist", ".eslintrc.js"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
 }

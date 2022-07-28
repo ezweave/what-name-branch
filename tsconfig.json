@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "lib": ["ES2020"],
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "paths": {
+      "@ezweave/*": ["*"]
+    },
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2020",
+    "types": ["node", "jest"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist", ".eslintrc.js"]
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` converts any description to a git/file safe name 1`] = `"the-s3-notifications-are-too-notify-how-fix-"`;

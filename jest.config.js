@@ -6,6 +6,7 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     '<rootDir>/**/*.ts',
+    '!<rootDir>/constants/**/*.ts',
     '!<rootDir>/types/**/*.ts',
     '!<rootDir>/**/index.ts',
     '!<rootDir>/**/*.spec.ts',

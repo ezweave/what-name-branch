@@ -1,5 +1,5 @@
 {
-  "name": "what-name-branch",
+  "name": "@ezweave/what-name-branch",
   "version": "1.0.0",
   "description": "Branch naming can be hard.",
   "main": "dist/index.js",

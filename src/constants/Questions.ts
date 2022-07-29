@@ -1,4 +1,4 @@
-import { getIssueTypes } from '@ezweave/util';
+import { getIssueTypes } from '../util';
 
 export const Questions = [{
   type: 'input',

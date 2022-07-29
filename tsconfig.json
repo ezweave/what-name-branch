@@ -11,9 +11,6 @@
     "moduleResolution": "node",
     "noImplicitAny": false,
     "outDir": "dist",
-    "paths": {
-      "@ezweave/*": ["*"]
-    },
     "preserveConstEnums": true,
     "removeComments": true,
     "resolveJsonModule": true,

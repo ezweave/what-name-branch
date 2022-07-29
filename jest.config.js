@@ -1,7 +1,3 @@
-// Similar to webpack.config, this will load the path aliases from tsconfig.json
-const tsconfig = require('./tsconfig.json');
-const moduleNameMapper = require('tsconfig-paths-jest')(tsconfig);
-
 module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
@@ -21,7 +17,6 @@ module.exports = {
   },
   moduleFileExtensions: ['ts', 'js', 'json'],
   moduleDirectories: ['node_modules'],
-  moduleNameMapper,
   rootDir: 'src',
   transform: {
     '^.+\\.ts$': 'ts-jest',

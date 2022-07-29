@@ -1,5 +1,5 @@
-import { IssueType, Logger } from '@ezweave/types';
 import { toLower } from 'lodash';
+import { IssueType, Logger } from '../types';
 
 import { generateBranchNameAndResponse } from './generateBranchNameAndResponse';
 

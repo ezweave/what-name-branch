@@ -1,5 +1,5 @@
 import { flow } from 'lodash';
-import { Issue } from '@ezweave/types';
+import { Issue } from '../types';
 import { buildResponse } from './buildResponse';
 import { generateBranchName } from './generateBranchName';
 

@@ -1,8 +1,7 @@
-import { Logger } from '@ezweave/types';
 import chalk from 'chalk';
 import figlet from 'figlet';
 import { flow } from 'lodash';
-
+import { Logger } from '../types';
 interface PrintBanner {
   (log?: Logger): void
 }

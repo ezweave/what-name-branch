@@ -7,14 +7,19 @@
   "author": "Matt Weaver <ezweave@gmail.com>",
   "license": "MIT",
   "private": true,
+  "bin": {
+    "name-branch": "./dist/index.js"
+  },
   "dependencies": {
     "chalk": "^4.0.0",
+    "figlet": "^1.5.2",
     "inquirer": "8.0.0",
     "lodash": "^4.17.21",
     "node-emoji": "^1.11.0",
     "yargs": "^17.5.1"
   },
   "devDependencies": {
+    "@types/figlet": "^1.5.4",
     "@types/inquirer": "^8.2.1",
     "@types/jest": "^27.4.1",
     "@types/lodash": "^4.14.182",

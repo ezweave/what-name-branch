@@ -1,6 +1,6 @@
 {
   "name": "what-name-branch",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Branch naming can be hard.",
   "main": "dist/index.js",
   "repository": "git@github.com:ezweave/what-name-branch.git",

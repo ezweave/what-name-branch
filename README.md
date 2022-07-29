@@ -12,6 +12,10 @@ A much _saner_ approach is to just be opinionated and specific, which is what I'
 
 ## Table of Contents
 
+* [Opinionated Branch Names](#opinionated-branch-names)
+* [Installation](#installation)
+* [Usage](#usage)
+
 ## Opinionated Branch Names
 
 My favored approach to branch naming is three pieces, directly related to the issue (or whatever your software management suite calls it):

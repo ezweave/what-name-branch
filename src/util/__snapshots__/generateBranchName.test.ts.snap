@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateBranchName generates a branch name, given proper inputs 1`] = `"story/FOO-420/you-both-present-sick-arguments"`;

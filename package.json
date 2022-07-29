@@ -6,7 +6,6 @@
   "repository": "git@github.com:ezweave/what-name-branch.git",
   "author": "Matt Weaver <ezweave@gmail.com>",
   "license": "MIT",
-  "private": true,
   "bin": {
     "name-branch": "./dist/index.js"
   },

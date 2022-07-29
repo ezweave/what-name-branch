@@ -8,7 +8,12 @@ interface PrintBanner {
 }
 
 export const printBanner: PrintBanner = (log = console.log) => flow(
+  text => figlet.textSync(text, { 
+    horizontalLayout: 'default',
+    verticalLayout: 'default',
+    width: 80,
+    whitespaceBreak: true,
+  }),
   chalk.bgBlue,
-  text => figlet.textSync(text, { horizontalLayout: 'full' }),
   log,
-)('what-name-branch?');
+)('what-name?');

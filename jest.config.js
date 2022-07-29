@@ -12,7 +12,6 @@ module.exports = {
     '!<rootDir>/**/*.spec.ts',
     '!<rootDir>/**/*.test.ts',
     '!<rootDir>/__fixtures__/**/*.ts',
-    '!<rootDir>/test/**/*.ts',
   ],
   coverageThreshold: {
     global: {

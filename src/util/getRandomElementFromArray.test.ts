@@ -10,10 +10,8 @@ describe(getRandomElementFromArray, () => {
       'Otto',
     ];
 
-    const getRandomSimpsonsFirstName = getRandomElementFromArray(values);
-
-    const one = getRandomSimpsonsFirstName();
-    const two = getRandomSimpsonsFirstName();
+    const one = getRandomElementFromArray(values);
+    const two = getRandomElementFromArray(values);
     expect(typeof one).toEqual('string');
     expect(typeof two).toEqual('string');
   });

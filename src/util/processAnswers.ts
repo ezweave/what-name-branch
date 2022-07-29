@@ -21,7 +21,7 @@ export const processAnswers = ({
   const response = generateBranchNameAndResponse({
     description,
     name,
-    type: toLower(type),
+    type: toLower(type) as IssueType,
   });
   log(response);
   return response;

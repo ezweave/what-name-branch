@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import inquirer from 'inquirer';
 import { Questions } from './constants';
 import { printBanner, processAnswers } from './util';

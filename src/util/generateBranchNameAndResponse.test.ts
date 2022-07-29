@@ -1,4 +1,4 @@
-import { StoryIssueFixture } from '@ezweave/__fixtures__';
+import { StoryIssueFixture } from '../__fixtures__';
 import { generateBranchNameAndResponse } from './generateBranchNameAndResponse';
 
 describe(generateBranchNameAndResponse, () => {

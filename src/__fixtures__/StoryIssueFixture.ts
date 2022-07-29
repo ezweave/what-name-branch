@@ -1,4 +1,4 @@
-import { Issue, IssueType } from '@ezweave/types';
+import { Issue, IssueType } from '../types';
 
 export const StoryIssueFixture: Issue = {
   description: 'you both present sick arguments',

@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 
-import { Emojis, Presponses, Responses } from '@ezweave/constants';
+import { Emojis, Presponses, Responses } from '../constants';
 import { getRandomElementFromArray } from './getRandomElementFromArray';
 
 export const buildResponse = (

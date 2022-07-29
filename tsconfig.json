@@ -11,9 +11,6 @@
     "moduleResolution": "node",
     "noImplicitAny": false,
     "outDir": "dist",
-    // "paths": { Paths are not working when published...
-    //   "@ezweave/*": ["*"]
-    // },
     "preserveConstEnums": true,
     "removeComments": true,
     "resolveJsonModule": true,

@@ -1,12 +1,18 @@
 # what-name-branch
 
-Hey person! [How is branch formed?](https://www.youtube.com/watch?v=Ll-lia-FEIY&ab_channel=ChrisBixby) How branch get ~pr~... eh, nevermind.
+Hello reader!  How many times has this happened to you?  You're out walking your dog and your boss jumps out of a bush.
 
-Ribaldry aside, arguing over branch naming conventions is the _height_ of inanity. Barring truly terrible names like:
+> Boss: "We've got a production bug you have to fix right now!"
+
+You know the fix, but what to call it?  Do you include the issue title?  Willa short description be enough?
 
 ```shell
 myCatsBreathSmells-like-cat-food
 ```
+
+![Too many arguments](https://media.giphy.com/media/i4gLlAUz2IVIk/giphy.gif)
+
+There's got to be a better way!
 
 A much _saner_ approach is to just be opinionated and specific, which is what I've done!
 

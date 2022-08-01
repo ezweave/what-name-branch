@@ -11,7 +11,7 @@ myCatsBreathSmells-like-cat-food
 ```
 
 <p align="center">
-  <img width="460" height="300" src="[http://www.fillmurray.com/460/300](https://media.giphy.com/media/i4gLlAUz2IVIk/giphy.gif)">
+  <img width="460" height="300" src="https://media.giphy.com/media/i4gLlAUz2IVIk/giphy.gif">
 </p>
 
 There's got to be a better way!

@@ -1,9 +1,9 @@
-import { trim } from "./trim";
+import { trim } from './trim';
 
 describe(trim, () => {
   it('trims a string', () => {
     expect(
-      trim(' foo      ')
+      trim(' foo      '),
     ).toEqual('foo');
-  })
-})
+  });
+});

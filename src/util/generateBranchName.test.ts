@@ -1,4 +1,4 @@
-import { StoryIssueFixture } from '../__fixtures__';
+import { StoryIssueFixture, StoryIssueFixtureWithSpaces } from '../__fixtures__';
 import { generateBranchName } from './generateBranchName';
 
 describe(generateBranchName, () => {
@@ -6,5 +6,10 @@ describe(generateBranchName, () => {
     expect(
       generateBranchName(StoryIssueFixture),
     ).toMatchSnapshot();
+  });
+  it('generates a branch name, trimming spaces', () => {
+    expect(
+      generateBranchName(StoryIssueFixtureWithSpaces),
+    ).toEqual(generateBranchName(StoryIssueFixture));
   });
 });

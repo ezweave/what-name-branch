@@ -1,4 +1,4 @@
-import { trim as trimLodash } from "lodash";
+import { trim as trimLodash } from 'lodash';
 
 /** 
  * TS has issues with the types for lodash' trim, so we wrap it. 

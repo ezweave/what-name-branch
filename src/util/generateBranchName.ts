@@ -1,13 +1,19 @@
-import { toUpper } from 'lodash';
+import { flow, toUpper } from 'lodash';
 import { Issue } from '../types';
 import { convertDescription } from './convertDescription';
+import { trim } from './trim';
 
 interface GenerateBranchName {
   (issue: Issue): string,
 }
+
+const convertName = flow(
+  trim,
+  toUpper,
+);
  
 export const generateBranchName: GenerateBranchName = ({
   description,
   name,
   type,
-}) => `${type}/${toUpper(name)}/${convertDescription(description)}`;
+}) => `${type}/${convertName(name)}/${convertDescription(description)}`;

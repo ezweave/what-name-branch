@@ -4,13 +4,15 @@ Hello reader!  How many times has this happened to you?  You're out walking your
 
 > Boss: "We've got a production bug you have to fix right now!"
 
-You know the fix, but what to call it?  Do you include the issue title?  Willa short description be enough?
+You know the fix, but what to call it?  Do you include the issue title?  Will a short description be enough?
 
 ```shell
 myCatsBreathSmells-like-cat-food
 ```
 
-![Too many arguments](https://media.giphy.com/media/i4gLlAUz2IVIk/giphy.gif)
+<p align="center">
+  <img width="460" height="300" src="[http://www.fillmurray.com/460/300](https://media.giphy.com/media/i4gLlAUz2IVIk/giphy.gif)">
+</p>
 
 There's got to be a better way!
 

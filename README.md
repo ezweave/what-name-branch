@@ -1,10 +1,10 @@
 # what-name-branch
 
-Hello reader!  How many times has this happened to you?  You're out walking your dog and your boss jumps out of a bush.
+Hello reader! How many times has this happened to you? You're out walking your dog and your boss jumps out of a bush.
 
 > Boss: "We've got a production bug you have to fix right now!"
 
-You know the fix, but what to call it?  Do you include the issue title?  Will a short description be enough?
+You know the fix, but what to call it? Do you include the issue title? Will a short description be enough?
 
 ```shell
 myCatsBreathSmells-like-cat-food
@@ -20,9 +20,9 @@ A much _saner_ approach is to just be opinionated and specific, which is what I'
 
 ## Table of Contents
 
-* [Opinionated Branch Names](#opinionated-branch-names)
-* [Installation](#installation)
-* [Usage](#usage)
+- [Opinionated Branch Names](#opinionated-branch-names)
+- [Installation](#installation)
+- [Usage](#usage)
 
 ## Opinionated Branch Names
 
@@ -81,6 +81,8 @@ Second, select your issue type:
 Third, enter the description. `name-branch` will strip out unsafe characters and replace them with `-`, so go nuts:
 
 ![](./docs/images/branch_namer_description.png)
+
+It will ask you if you want to create this branch now (assuming you are in the right directory, etc). It wil default to yes.
 
 Now you have a branch name:
 

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createBranch should create a branch with no problems 1`] = `"Switched to a new branch 'foo'"`;
+
+exports[`createBranch should throw an error for an invalid branch name 1`] = `"fatal: '...asdf' is not a valid branch name"`;

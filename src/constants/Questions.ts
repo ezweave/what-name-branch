@@ -8,9 +8,17 @@ export const Questions = [{
   type: 'list',
   name: 'type',
   message: 'What type of issue is this?',
-  choices: getIssueTypes(), 
+  choices: getIssueTypes(),
 }, {
   type: 'input',
   name: 'description',
-  message: 'What is the description?', 
+  message: 'What is the description?',
+}, {
+  type: 'input',
+  name: 'create',
+  message: 'Do you want to create this branch now?',
+  choices: [
+    'YES',
+    'NO',
+  ],
 }];

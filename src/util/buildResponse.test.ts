@@ -8,4 +8,9 @@ describe(buildResponse, () => {
     console.warn(response);
     expect(typeof response).toEqual('string');
   });
+  it('builds a random without a branch name', () => {
+    const response = buildResponse('branch created', false);
+    console.warn(response);
+    expect(typeof response).toEqual('string');
+  });
 });
